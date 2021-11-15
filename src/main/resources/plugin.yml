@@ -1,8 +1,8 @@
-name: ExamplePlugin
+name: Heart
 api-version: 1.17
 authors:
-  - You
-main: org.example.exampleplugin.ExamplePlugin
+  - StckOverflw
+main: net.stckoverflw.heart.HeartPlugin
 version: 1.0.0
 libraries:
   - "net.axay:kspigot:1.17.4"

@@ -1,11 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.6.0"
 }
 
 group = "net.stckoverflw"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenLocal()

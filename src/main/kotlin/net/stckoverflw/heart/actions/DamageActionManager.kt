@@ -32,7 +32,7 @@ object DamageActionManager {
 
     fun enable() {
         listener = listen {
-            if (it.entity is Player) {
+            if (it.entity is Player && it.finalDamage > 0) {
                 var newAction = actions.random()
                 while (lastAction == newAction) {
                     newAction = actions.random()
